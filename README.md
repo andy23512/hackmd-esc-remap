@@ -4,6 +4,8 @@
 
 HackMD 的 vim 模式中，`Esc` 無法離開 insert 模式，但 `Ctrl+[` 可以。這個 Chrome 擴充套件會攔截 `Esc`，改送出一個 `Ctrl+[` 的 keydown 事件。
 
+已在 hackmd.io 的 vim 模式實測可行（Chrome 156.0.8078.80，2026-10-31）。
+
 ## 安裝
 
 1. 開啟 `chrome://extensions`，打開「開發人員模式」。
