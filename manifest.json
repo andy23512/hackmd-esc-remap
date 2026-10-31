@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "HackMD Esc to Ctrl+[",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://hackmd.io/*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}
